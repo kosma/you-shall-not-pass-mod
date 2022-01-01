@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "you-shall-not-pass",
+  "version": "${version}",
+  "name": "You Shall Not Pass",
+  "description": "Customizable 'Not Whitelisted' Message",
+  "authors": [
+    "Kosmolot",
+    "masa",
+    "Jorianv",
+    "sarah"
+  ],
+  "contact": {
+    "repo": "https://github.com/kosma/you-shall-not-pass-mod"
+  },
+  "license": "MIT",
+  "icon": "assets/you-shall-not-pass/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "pl.kosma.youshallnotpass.YouShallNotPass"
+    ]
+  },
+  "mixins": [
+    "you-shall-not-pass.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.12.12",
+    "minecraft": "1.18.1"
+  }
+}
